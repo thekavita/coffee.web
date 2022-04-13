@@ -1,0 +1,346 @@
+* {
+  margin: 0;
+  padding: 0rem;
+}
+/*Navigation Bar Section*/
+#navbar {
+  display: flex;
+  align-items: center;
+}
+#navbar {
+  position: relative;
+}
+#navbar::before {
+  content: "";
+  background: url(https://cdn.pixabay.com/photo/2017/02/15/10/39/salad-2068220__340.jpg)
+    no-repeat center center/cover;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.4;
+}
+#logo {
+  margin: 10px 14px;
+}
+
+#logo img {
+  height: 59px;
+  margin: 3px 6px;
+}
+#navbar ul {
+  display: flex;
+  font-family: "Baloo Bhai", cursive;
+}
+
+#navbar ul li {
+  list-style: none;
+  font-size: 1.3rem;
+}
+
+#navbar ul li a {
+  color: white;
+  display: block;
+  padding: 3px 12px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+#navbar ul li a:hover {
+  color: black;
+  background-color: white;
+}
+/*Search button styling*/
+.search input[type=text]{
+  width:180px;
+  height:25px;
+  border-radius:15px;
+  border: none;
+  font-family:"Baloo Bhai", cursive; ;
+}
+    
+.search{
+  float:right;
+  margin:7px;
+  margin-left: 530px;
+}
+    
+.search button{
+  background-color: #0074D9;
+  color: #f2f2f2;
+  float: right;
+  padding: 5px 10px;
+  margin-right: 16px;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+/*Home Section*/
+#home {
+  display: flex;
+  flex-direction: column;
+  padding: 3px 200px;
+  height: 550px;
+  justify-content: center;
+  align-items: center;
+}
+#home::before {
+  content: "";
+  position: absolute;
+  background: url(https://cdn.pixabay.com/photo/2016/03/26/13/09/cup-of-coffee-1280537_960_720.jpg)
+    no-repeat center center/cover;
+  height: 660px;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.89;
+}
+
+#home h1 {
+  color: white;
+  text-align: center;
+  font-family: "Bree Serif", serif;
+}
+
+#home p {
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Bree Serif", serif;
+}
+/* Services Section */
+#services {
+  margin: 14px;
+  display: flex;
+}
+#services .box {
+  border: 2px solid brown;
+  padding: 24px;
+  margin: 2px 20px;
+  border-radius: 28px;
+  background: #ebe0e0;
+  margin-bottom: 20px;
+  height: 400px;
+}
+
+#services .box img {
+  height: 160px;
+  margin: auto;
+  display: block;
+}
+
+#services .box p {
+  font-family: "Bree Serif", serif;
+  margin-top: 50px;
+}
+.h-primary {
+  margin-top: 300px;
+  font-family: "Bree Serif", serif;
+  font-size: 3.8rem;
+  padding: 12px;
+  color:#12020180;
+}
+
+.h-secondary {
+
+  font-family: "Bree Serif", serif;
+  font-size: 2.3rem;
+  padding: 12px;
+ 
+}
+.services-container-es::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.8;
+  background: url(https://media.istockphoto.com/photos/close-up-hot-cappuccino-white-coffee-cup-with-heart-shape-latte-art-picture-id1166328231?k=20&m=1166328231&s=612x612&w=0&h=dl3hFBDWQp5EsYALidVeKJENXG8c7SdVNQ9IoQBftcI=)no-repeat center center/cover;
+}
+
+#services-es {
+  margin: 14px;
+  display: flex;
+}
+#services-es .box {
+  border: 2px solid #bea5a5;
+  padding: 24px;
+  margin: 2px 20px;
+  border-radius: 28px;
+  background: #ebe0e0;
+  margin-bottom: 20px;
+  height: 400px;
+}
+
+#services-es .box img {
+  height: 160px;
+  margin: auto;
+  display: block;
+}
+#services-es .box p {
+  font-family: "Bree Serif", serif;
+  margin-top: 50px;
+}
+.h-primary-es{
+  margin-top: 0px;
+  font-family: "Bree Serif", serif;
+  font-size: 3.8rem;
+  padding: 12px;
+}
+
+.h-secondary-es{
+
+  font-family: "Bree Serif", serif;
+  font-size: 2.3rem;
+  padding: 12px;
+}
+
+#coffe {
+  margin: 9px 0px;
+  display: flex;
+  
+  
+}
+#coffe .box {
+  border: 2px solid rgb(155, 144, 144);
+  padding: 34px;
+  margin: 2px 14px;
+  border-radius: 28px;
+  background: #ebe0e0;
+  margin-bottom: 20px;
+  height: 280px;
+  width: 348px;
+}
+
+#coffe .box img {
+  height: 160px;
+  margin: auto;
+  display: block;
+}
+#coffe .box p{
+  font-family: cursive;
+  color: aqua;
+   text-shadow: 2px 3px 4px;
+   margin-top: 180px;
+   margin-right: 230px;
+   
+}
+.btn {
+  padding: 6px 20px;
+  border: 2px solid white;
+  background-color: brown;
+  color: white;
+  margin: 17px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.center {
+  text-align: center;
+}
+/*Backgroud Image Section*/
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.bigimg::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.8;
+  background: url(https://media.istockphoto.com/photos/close-up-of-steaming-cup-of-coffee-or-tea-on-vintage-table-early-on-picture-id1137365972?k=20&m=1137365972&s=612x612&w=0&h=_x7JXTfZoxVC9JCh5n2YqEzM7c5l171keV2qeOAcuYs=)no-repeat center center/cover;
+}
+.overlay{
+  width: 100%;
+  height: 100%;
+  font-size: 26px;
+  color: white;
+  display: flex;
+  justify-content: end ;
+  align-items: end;
+  flex-direction: column;
+}
+.overlay h1{
+  margin-top:200px;
+  margin-right:50px;
+  
+}
+.overlay p{
+  margin-right:50px;
+  
+}
+/*Footer Section*/
+.inner-footer{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  }
+  .social-links{
+      display: flex;
+  
+  }
+  .social-links ul{
+      padding: 10px ;
+      display: flex;
+      width: 300px;
+      height: 30px;
+      margin: auto;
+      
+  }
+  .social-items{
+      list-style: none;
+  }
+  
+  .social-items a{
+     padding:  10px 20px;
+      font-size: 35px;
+      color: #6cccc6;
+      transition: all .25s;
+   
+  }
+  .social-items a:hover{
+     
+      color: #54a39e;;
+      
+  }
+  .quick-links{
+      display: flex;
+      width: 560px;
+      height: 70px;
+      margin: auto;
+  }
+  
+  .quick-links ul{
+      display: flex;
+  }
+  .quick-items{
+     list-style: none;
+  }
+  .quick-items a{
+      margin-left: 25px;
+      text-decoration: none;
+      padding: 0px 15px;
+      font-size: 18px;
+      color: white;
+  
+  }
+  .quick-items a:hover{
+      font-size: 19px;
+      color: #6b9b98;
+  }
+  .outer-footer{
+      text-align: center;
+      padding: 10px;
+      font-size: 18px;
+      color: white;
+      background-color: #3f3f3f;
+  
+  }
+
+  
+  
